@@ -1,15 +1,7 @@
-const express = require('express');
+const app = require('./app');
 
-const app = express();
+const PORT = 3000;
 
-app.use(express.json());
-
-app.get('/', (req, res) => {
-    res.json({
-        message: 'API Investigation Lab funcionando 🚀'
-    });
-});
-
-app.listen(3000, () => {
-    console.log('Servidor rodando em http://localhost:3000');
+app.listen(PORT, () => {
+    console.log(`Servidor rodando em http://localhost:${PORT}`);
 });
