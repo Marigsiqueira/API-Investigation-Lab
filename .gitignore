@@ -1,0 +1,23 @@
+# Dependências
+node_modules/
+
+# Banco de dados
+*.sqlite
+*.db
+
+# Logs
+logs/
+*.log
+
+# Variáveis de ambiente
+.env
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Cobertura de testes
+coverage/
+
+# Configurações do VSCode
+.vscode/j
